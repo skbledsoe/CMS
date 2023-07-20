@@ -31,11 +31,6 @@ class CMSTest < Minitest::Test
     last_request.env["rack.session"]
   end
 
-  # def random_user
-  #   users = YAML.load_file('test/users.yml')
-  #   users.keys.sample
-  # end
-
   def admin_session
     { "rack.session" => { username: "admin" } }
   end

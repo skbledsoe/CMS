@@ -19,10 +19,6 @@ def render_markdown(text)
   markdown.render(text)
 end
 
-def session_details
-  session.inspect
-end
-
 def render_file(path)
   content = File.read(path)
 
