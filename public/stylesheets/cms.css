@@ -1,0 +1,13 @@
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+#message {
+  background-color: rgb(252, 252, 148);
+  padding: 10px;
+}
+
+form.inline {
+  display: inline-block;
+}
